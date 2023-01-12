@@ -20,8 +20,8 @@ main {
 .dash {
     background-color: #1992d4;
     display: grid;
-    gap: 30px;
-    grid-template-rows: auto 2fr 3fr;
+    gap: 20px;
+    grid-template-rows: auto 0.5fr 1fr;
 }
 
 .logo, .icon {
@@ -33,6 +33,7 @@ main {
     color: #ffff;
     padding-left: 30px;
     font-weight: bold;
+    height: fit-content;
 }
 
 /*content */
